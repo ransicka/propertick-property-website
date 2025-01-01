@@ -1,0 +1,164 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
+			"picture":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/474497507.jpg?k=22a6966d6b5351630a1d396b166a0ab20aadd5c1f3870ea5f55f9af2ef80cd28&o=&hp=1",
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+			"picture":"images/prop2pic1small.jpg",
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+        {
+            "id":"prop3",
+			"type":"Villa",
+            "bedrooms":2,
+			"price":50000000,
+			"tenure":"Freehold",
+			"description":"Discover the ultimate in comfort, luxury, and serenity with this stunning villa, ideally situated in the heart of Galle. Perfectly blending modern design with natural beauty, this property offers the perfect retreat for those seeking a peaceful lifestyle, combined with the charm of coastal living.",
+            "location":"Galle",
+			"picture":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/334280886.jpg?k=861a1ec12f805d39ff0c3a6a1864d2f945e90d50f791f664d8c3591c6acd7603&o=&hp=1",
+			"url":"properties/prop3.html",
+            "added": {
+                "month":"July",
+                "day":1,
+                "year":2024
+            }
+        },
+        {
+            "id":"prop4",
+			"type":"Villa",
+            "bedrooms":8,
+			"price":50000000,
+			"tenure":"Freehold",
+			"description":"Discover the ultimate in comfort, luxury, and serenity with this stunning villa, ideally situated in the heart of Galle. Perfectly blending modern design with natural beauty, this property offers the perfect retreat for those seeking a peaceful lifestyle, combined with the charm of coastal living.",
+            "location":"Galle",
+			"picture":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/273680828.jpg?k=aa15da58e0ac762fa40d4ba03b083f2a196d8b251a78e2f3c2c4ad6f6be69759&o=&hp=1",
+			"url":"properties/prop4.html",
+            "added": {
+                "month":"December",
+                "day":27,
+                "year":2024
+            }
+        },
+        {
+            "id": "prop5",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 30000000,
+            "tenure": "Freehold",
+            "description": "A beautifully designed modern house located in the serene hills of Kandy, offering breathtaking views of the surrounding landscape. This property boasts spacious interiors, a landscaped garden, and proximity to schools and city conveniences.",
+            "location": "Hantana Road, Kandy 20000",
+            "picture": "https://cdn.pixabay.com/photo/2016/08/06/16/47/house-1571123_960_720.jpg",
+            "url": "properties/prop5.html",
+            "added": {
+                "month": "November",
+                "day": 20,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop6",
+            "type": "Apartment",
+            "bedrooms": 3,
+            "price": 25000000,
+            "tenure": "Leasehold",
+            "description": "This high-rise luxury apartment in Colombo 3 offers stunning sea views, modern amenities, and a rooftop pool. Ideal for city dwellers seeking comfort and convenience in the heart of Sri Lanka's bustling capital.",
+            "location": "Colombo 3, 00300",
+            "picture": "https://cdn.pixabay.com/photo/2019/02/19/06/58/architecture-4008387_960_720.jpg",
+            "url": "properties/prop6.html",
+            "added": {
+                "month": "October",
+                "day": 15,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop7",
+            "type": "Bungalow",
+            "bedrooms": 5,
+            "price": 40000000,
+            "tenure": "Freehold",
+            "description": "A charming colonial-style bungalow nestled in the tea estates of Nuwara Eliya. Featuring wooden interiors, a fireplace, and expansive gardens, this property is perfect for those looking for a cozy retreat in Sri Lanka's Little England.",
+            "location": "Nuwara Eliya, 22200",
+            "picture": "https://cdn.pixabay.com/photo/2016/08/05/15/45/house-1571306_960_720.jpg",
+            "url": "properties/prop7.html",
+            "added": {
+                "month": "September",
+                "day": 10,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop8",
+            "type": "Villa",
+            "bedrooms": 6,
+            "price": 60000000,
+            "tenure": "Freehold",
+            "description": "Located on the golden beaches of Bentota, this luxurious beachfront villa offers the perfect escape. With spacious rooms, an infinity pool, and direct beach access, this property is an ideal investment or holiday home.",
+            "location": "Bentota, 80500",
+            "picture": "https://cdn.pixabay.com/photo/2018/04/05/22/31/beach-3298233_960_720.jpg",
+            "url": "properties/prop8.html",
+            "added": {
+                "month": "August",
+                "day": 5,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop9",
+            "type": "Commercial",
+            "bedrooms": 0,
+            "price": 120000000,
+            "tenure": "Freehold",
+            "description": "A prime commercial property in the heart of Galle Fort, a UNESCO World Heritage site. Ideal for boutique hotels, shops, or cafes, this historic building combines cultural charm with modern potential.",
+            "location": "Church Street, Galle Fort, 80000",
+            "picture": "https://cdn.pixabay.com/photo/2020/06/02/16/54/galle-5251322_960_720.jpg",
+            "url": "properties/prop9.html",
+            "added": {
+                "month": "July",
+                "day": 18,
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop10",
+            "type": "Apartment",
+            "bedrooms": 3,
+            "price": 20000000,
+            "tenure": "Leasehold",
+            "description": "Modern city apartment located in the heart of Colombo. This stylish property offers panoramic city views, contemporary interiors, and easy access to business districts and recreational facilities.",
+            "location": "Colombo 03, 00300",
+            "picture": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/295462423.jpg?k=abc123xyz456&o=&hp=1",
+            "url": "properties/prop5.html",
+            "added": {
+                "month": "December",
+                "day": 28,
+                "year": 2024
+            }
+        }
+        
+]}
