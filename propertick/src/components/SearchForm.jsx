@@ -9,21 +9,26 @@ const SearchForm = ({ onSearch }) => {
     maxBedrooms: '',
     startDate: '',
     endDate: '',
-    postcode: ''
+    postcode: '',
   });
 
   const handleChange = (e) => {
-    setCriteria({ ...criteria, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setCriteria({
+      ...criteria,
+      [name]: value,
+    });
   };
 
-  const handleSearch = () => {
+  const handleSearch = (e) => {
+    e.preventDefault();
     onSearch(criteria);
   };
 
   return (
     <div className="container mt-4">
       <h3>Search Properties</h3>
-      <form className="row g-3">
+      <form className="row g-3" onSubmit={handleSearch}>
         <div className="col-md-6">
           <label htmlFor="type" className="form-label">Type</label>
           <select
@@ -116,7 +121,7 @@ const SearchForm = ({ onSearch }) => {
           />
         </div>
         <div className="col-md-3 pt-4">
-          <button type="button" className="btn btn-primary" onClick={handleSearch}>
+          <button type="submit" className="btn btn-primary">
             Search
           </button>
         </div>

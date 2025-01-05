@@ -1,8 +1,16 @@
 import React from 'react';
+import {useState} from 'react';
 import { Link } from 'react-router-dom';
+import WishlistSidebar from './WishlistSidebar';
 
 const Header = () => {
+    const [isSidebarOpen, setIsSidebarOpen]=useState(false);
+    const toggleSidebar = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+    };
+
     return (
+        <>
         <nav className="navbar navbar-expand-lg sticky-top bg-white">
             <div className="container-fluid">
                 <Link className="navbar-brand text-success" to="/">Propertick</Link>
@@ -21,9 +29,19 @@ const Header = () => {
                             <Link className="nav-link" to="/Contact-us">Contact Us</Link>
                         </li>   
                     </ul>
+                    <button 
+                    className="btn btn-primary"
+                    onClick={toggleSidebar}
+                    style={{marginLeft: 'auto'}}
+                    >
+                        Wishlist
+                    </button>
+
                 </div>
             </div>
         </nav>
+        <WishlistSidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+        </>
     );
 };
 

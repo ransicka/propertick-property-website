@@ -6,7 +6,6 @@ import propertiesData from '../../public/properties.json';
 const Sales = () => {
     return (
         <div>
-            <Header />
             <SearchForm />
             <PropertyList properties={propertiesData.properties} />
         </div>
