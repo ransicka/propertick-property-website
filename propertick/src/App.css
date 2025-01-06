@@ -1,3 +1,30 @@
-/* .nav-text{
-    color: rgb(23, 154, 0);
-} */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body {
+    font-family: 'Manrope', sans-serif, Arial;
+}
+.carousel-indicators img{
+    width: 70px;
+    display: block;
+}
+.carousel-indicators button{
+    width: max-content!important;
+}
+.carousel-indicators{
+    position: unset;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensures equal height */
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures the body grows to fill available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Keeps content aligned */
+}
+  
+  

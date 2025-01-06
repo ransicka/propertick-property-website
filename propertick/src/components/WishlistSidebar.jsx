@@ -51,6 +51,7 @@ const WishlistSidebar = ({ isOpen, toggleSidebar }) => {
                                 >
                                     Remove
                                 </button>
+                                
                             </li>
                         ))}
                     </ul>

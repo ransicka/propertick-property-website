@@ -3,7 +3,7 @@ import PropertyCard from './PropertyCard';
 
 const PropertyList = ({ properties }) => {
   return (
-    <div className="container">
+    <div className="container card-container">
       <div className="row">
         {properties.map((property) => (
           <div className="col-md-4 mb-4" key={property.id}>

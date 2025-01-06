@@ -2,93 +2,120 @@
 	"properties": [
         {
             "id":"prop1",
-			"type":"House",
+			"type":"Villa",
+            "title":"Luxury villa in Bentota with ocean view and swimming pool",
             "bedrooms":3,
 			"price":750000,
 			"tenure":"Freehold",
-			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"description":"Nestled in the serene coastal town of Bentota, this exquisite villa offers a tranquil retreat amidst lush tropical landscapes. With its elegant architecture and modern amenities, the villa combines luxury and comfort, providing a perfect escape for relaxation. Guests can enjoy spacious bedrooms with breathtaking views, a private pool surrounded by swaying palms, and direct access to the pristine beaches of Bentota. Whether you’re savoring fresh seafood on the terrace or indulging in a rejuvenating spa treatment, the villa promises an unforgettable experience. Ideal for families, couples, or groups, it’s a haven where you can immerse yourself in the natural beauty and warm hospitality of Sri Lanka.",
 			"location":{
-                "address":"Petts Wood Road, Petts Wood",
-                "city":"Orpington",
-                "postcode":"BR5"
+                "address":"No.338/340, Warahena",
+                "city":"Bentota",
+                "postcode":"80500"
             },
-			"picture":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/474497507.jpg?k=22a6966d6b5351630a1d396b166a0ab20aadd5c1f3870ea5f55f9af2ef80cd28&o=&hp=1",
-			"url":"properties/prop1.html",
+			"picture":{
+                "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/474497507.jpg?k=22a6966d6b5351630a1d396b166a0ab20aadd5c1f3870ea5f55f9af2ef80cd28&o=&hp=1",
+                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/273680828.jpg?k=aa15da58e0ac762fa40d4ba03b083f2a196d8b251a78e2f3c2c4ad6f6be69759&o=&hp=1",
+                "thumb2": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/531642750.jpg?k=6fcc5ae095fd2db3e9c75b0dbe4d56b466589435f09422c4f255bf92fba37a55&o=&hp=1",
+                "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/451955425.jpg?k=0b188e4393d98304d394fe16275d298c62414d7e782603164f18964a12ad8c58&o=&hp=1",
+                "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/474497430.jpg?k=445431d10319d54bd5722d327d7ac5a2fca32d7372cec74707e594f986e3b145&o=&hp=1"
+            },
+            "url":"properties/prop1.html",
             "added": {
                 "month":"October",
                 "day":12,
                 "year":2022
-            }
+            },
+            "floorplan": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sample_Floorplan.jpg"
         },
 		{
             "id":"prop2",
 			"type":"Flat",
+            "title":"2 Bedroom Garden Flat",
             "bedrooms":2,
 			"price":399995,
 			"tenure":"Freehold",
 			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
 			"location":{
-                "address":"Crofton Road",
-                "city":"Orpington",
-                "postcode":"BR6"
+                "address":"Horana Road, Gonapola",
+                "city":"Piliyandala",
+                "postcode":"10300"
             },
-			"picture":"images/prop2pic1small.jpg",
+            "picture":{
+                "main": "https://www.homelandsskyline.lk/uploads/1709199240612-Canterbury_Lexus_Golf_Apartments%20(11).jpg",
+                "thumb1": "https://www.homelandsskyline.lk/uploads/1709199260270-Canterbury_Lexus_Golf_Apartments%20(13).jpg",
+                "thumb2": "https://www.homelandsskyline.lk/uploads/1709199291894-Canterbury_Lexus_Golf_Apartments%20(16).jpg",
+                "thumb3": "https://www.homelandsskyline.lk/uploads/1709199322949-Canterbury_Lexus_Golf_Apartments%20(12).jpg",
+                "thumb4": "https://www.homelandsskyline.lk/uploads/1709199341692-Canterbury_Lexus_Golf_Apartments%20(14).jpg"
+            },
 			"url":"properties/prop2.html",
             "added": {
                 "month":"September",
                 "day":14,
                 "year":2022
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/26/96/45/269645e71fc69295cb74fab7b8ffcc41.jpg"
         },
         {
             "id":"prop3",
 			"type":"Villa",
+            "title":"Luxury Villa with Ocean Views",
             "bedrooms":2,
 			"price":50000000,
 			"tenure":"Freehold",
 			"description":"Discover the ultimate in comfort, luxury, and serenity with this stunning villa, ideally situated in the heart of Galle. Perfectly blending modern design with natural beauty, this property offers the perfect retreat for those seeking a peaceful lifestyle, combined with the charm of coastal living.",
             "location":{
-                "address":"Unawatuna",
-                "city":"Galle",
-                "postcode":"80000"
-            },
-			"picture":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/334280886.jpg?k=861a1ec12f805d39ff0c3a6a1864d2f945e90d50f791f664d8c3591c6acd7603&o=&hp=1",
-			"url":"properties/prop3.html",
-            "added": {
-                "month":"July",
-                "day":1,
-                "year":2024
-            }
-        },
-        {
-            "id":"prop4",
-			"type":"Villa",
-            "bedrooms":8,
-			"price":50000000,
-			"tenure":"Freehold",
-			"description":"Discover the ultimate in comfort, luxury, and serenity with this stunning villa, ideally situated in the heart of Galle. Perfectly blending modern design with natural beauty, this property offers the perfect retreat for those seeking a peaceful lifestyle, combined with the charm of coastal living.",
-            "location":{
-                "address":"Unawatuna",
+                "address":"167, Galle Road, Boossa",
                 "city":"Galle",
                 "postcode":"80000"
             },
 			"picture":{
-                "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/273680828.jpg?k=aa15da58e0ac762fa40d4ba03b083f2a196d8b251a78e2f3c2c4ad6f6be69759&o=&hp=1",
-                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/273680828.jpg?k=aa15da58e0ac762fa40d4ba03b083f2a196d8b251a78e2f3c2c4ad6f6be69759&o=&hp=1",
-                "thumb2": "https://cf.bstatic.com/xdata",
-                "thumb3": "https://cf.bstatic.com/xdata",
-                "thumb4": "https://cf.bstatic.com/xdata"
+                "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/334280886.jpg?k=861a1ec12f805d39ff0c3a6a1864d2f945e90d50f791f664d8c3591c6acd7603&o=&hp=1",
+                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/334279349.jpg?k=48b40f4a07e7202514a6ff8759860d92835dd616241bd44c85dc53432ac04380&o=&hp=1",
+                "thumb2": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/334280207.jpg?k=a24a294ec6f879f5db4eb1d22eb30700a50ced3728b6bfc3391115b441f7e559&o=&hp=1",
+                "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/326126750.jpg?k=7ef22dc0b44162538a533067150097d5855732272cc61c9447442bb884b1ffe1&o=&hp=1",
+                "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/326126822.jpg?k=679ce65fa6a9696058261e37d82c8edfb5db002dff69a669ca4cd148a7ffb09c&o=&hp=1"
+            },
+            "url":"properties/prop3.html",
+            "added": {
+                "month":"July",
+                "day":1,
+                "year":2024
+            },
+            "floorplan": "https://i.pinimg.com/736x/69/e9/5a/69e95a754cee9bf7578cfda27ae2b79d.jpg"
+        },
+        {
+            "id":"prop4",
+			"type":"House",
+            "title":"House for sale in Gampaha",
+            "bedrooms":5,
+			"price":50000000,
+			"tenure":"Freehold",
+			"description":"This spacious 20-perch, 5-bedroom house in the heart of Gampaha is the perfect blend of comfort and convenience. Situated in a peaceful residential area, the property offers ample living space with generously sized bedrooms, a modern kitchen, and well-appointed bathrooms. The large garden provides plenty of room for outdoor activities, gardening, or future expansion. Ideal for a growing family or as an investment property, this home is located close to schools, hospitals, and shopping centers, ensuring all amenities are within easy reach. Don’t miss this opportunity to own a beautiful home in a highly sought-after location!",
+            "location":{
+                "address":"Ambagahalanda Road, Yakkala",
+                "city":"Gampaha",
+                "postcode":"11000"
+            },
+			"picture":{
+                "main": "https://www.ceylonproperty.lk/imagesPosts/19601733723561pHR8XhmD7j8YA9J.jpeg",
+                "thumb1": "https://www.ceylonproperty.lk/imagesPosts/19601733723568Mwa71lQ7JsHRFBT.jpeg",
+                "thumb2": "https://www.ceylonproperty.lk/imagesPosts/19601733723572zO0IEdUFsHEsntj.jpeg",
+                "thumb3": "https://www.ceylonproperty.lk/imagesPosts/19601733723578pp76ZVVz2djq0HD.jpeg",
+                "thumb4": "https://www.ceylonproperty.lk/imagesPosts/19601733723582jaBKTu8M1cNUQws.jpeg"
             },
 			"url":"properties/prop4.html",
             "added": {
                 "month":"December",
                 "day":27,
                 "year":2024
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/b3/cc/10/b3cc10dd028289ea72e9bc7cbd06aad8.jpg"
         },
         {
             "id": "prop5",
             "type": "House",
+            "title": "Modern Hillside House",
             "bedrooms": 4,
             "price": 30000000,
             "tenure": "Freehold",
@@ -98,37 +125,53 @@
                 "city": "Kandy",
                 "postcode": "20000"
             },
-            "picture": "https://cdn.pixabay.com/photo/2016/08/06/16/47/house-1571123_960_720.jpg",
+            "picture":{
+                "main": "https://www.primeresidencies.lk/slider_images/201007101031DSC_3107.jpg",
+                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/479435497.jpg?k=949d66b55531d7be52aef9c43e5b3b461eb7399e305c594946385e2c26bc46bd&o=&hp=1",
+                "thumb2": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/600870845.jpg?k=d022066640249d4ce775035be47d57f507e9a2e8915bbdc0de2c4169d2080b91&o=&hp=1",
+                "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/610963814.jpg?k=3c75b3b7c5c3a8a2b57e1a6660328ff1b4f5d2229d07e58342746508919848d5&o=&hp=1",
+                "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/426745069.jpg?k=beee2a88dea86b443682b862bc541cafef658163c33f1824284eec8f37cf2542&o=&hp=1"
+            },
             "url": "properties/prop5.html",
             "added": {
                 "month": "November",
                 "day": 20,
                 "year": 2024
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/8d/6b/74/8d6b74b8913f6a81ef68c6447f2891a7.jpg"
         },
         {
             "id": "prop6",
-            "type": "Apartment",
+            "type": "Flat",
+            "title": "Luxury Studio Apartment in the heart of Colombo",
             "bedrooms": 3,
             "price": 25000000,
             "tenure": "Leasehold",
-            "description": "This high-rise luxury apartment in Colombo 3 offers stunning sea views, modern amenities, and a rooftop pool. Ideal for city dwellers seeking comfort and convenience in the heart of Sri Lanka's bustling capital.",
+            "description": "Modern and stylish studio apartment located in the heart of Colombo 3. This cozy space features an open-plan layout with a fully equipped kitchenette, a comfortable living area, and a sleek bathroom. Ideal for urban living, it offers convenience with easy access to shopping, dining, and entertainment hubs. Perfect for professionals or as an investment opportunity!",
             "location": {
-                "address": "Colombo 3",
+                "address": "821, Alfred Place",
                 "city": "Colombo",
                 "postcode": "00300"
+            }, 
+            "picture":{
+                "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/180555795.jpg?k=447b7dad5dbd66e5da2c46b0e3a471e7812169333b150d1badcc1e6da14d67d1&o=&hp=1",
+                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/179868314.jpg?k=ebe5066c82e0c16a3fc1f93c56c1ed5abd12e34f4604f36307717e70a616d871&o=&hp=1",
+                "thumb2": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/333271664.jpg?k=e4602525bc12d42286487871286a965f1f2ca53143d70e8f6ea2f2d707e471af&o=&hp=1",
+                "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/182092878.jpg?k=e24f06afadaf24c0a8f65702b0f972808c4433ee7662e17bcc9f07ec42968fa3&o=&hp=1",
+                "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181831926.jpg?k=c0322ef5e8843f7b8bb7484a8c5b6c1385b10b4e59cf9b5e236f8c842baa5f03&o=&hp=1"
             },
-            "picture": "https://cdn.pixabay.com/photo/2019/02/19/06/58/architecture-4008387_960_720.jpg",
             "url": "properties/prop6.html",
             "added": {
                 "month": "October",
                 "day": 15,
                 "year": 2024
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/90/38/88/9038884c4a47195ae07ecbf4560125b3.jpg"
         },
         {
             "id": "prop7",
             "type": "Bungalow",
+            "title": "Colonial-Style Bungalow",
             "bedrooms": 5,
             "price": 40000000,
             "tenure": "Freehold",
@@ -138,17 +181,25 @@
                 "city": "Nuwara Eliya",
                 "postcode": "22200"
             },
-            "picture": "https://cdn.pixabay.com/photo/2016/08/05/15/45/house-1571306_960_720.jpg",
+            "picture":{
+                "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/508266730.jpg?k=1b1dadabc1eefc2165fd87184bc407a9472a821923a4924fd3401b9daa698bde&o=&hp=1",
+                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/575546971.jpg?k=6ef7154db0644e42f866b13a8ad0d6e2fedaf4e7286e0a73ff2ec5b02b1b5d41&o=&hp=1",
+                "thumb2": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/102195586.jpg?k=31db77efde9977069b40195df036468ccd8264358eaad78f0014ba1379514c0b&o=&hp=1",
+                "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/102195594.jpg?k=dfd8165c4ed9c5850aa0fb15ac689bd448dcc6b09656151192a3b15ee02d31ae&o=&hp=1",
+                "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/141183762.jpg?k=2cdef3946422dcb219d5e2e9e6f2eb082a000a3731beb4e9b928e5f94ff4a371&o=&hp=1"
+            },
             "url": "properties/prop7.html",
             "added": {
                 "month": "September",
                 "day": 10,
                 "year": 2024
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/9a/59/33/9a5933c00bc84cb1260450e0632d5813.jpg"
         },
         {
             "id": "prop8",
             "type": "Villa",
+            "title": "Beachfront Villa",
             "bedrooms": 6,
             "price": 60000000,
             "tenure": "Freehold",
@@ -158,53 +209,76 @@
                 "city": "Bentota",
                 "postcode": "80500"
             },
-            "picture": "https://cdn.pixabay.com/photo/2018/04/05/22/31/beach-3298233_960_720.jpg",
+            "picture":{
+                "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/608403357.jpg?k=3735abeba696721f4c3a2f463e3a22d864e3cce34ca029fac3fee6d1386451d8&o=&hp=1",
+                "thumb1": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/611507677.jpg?k=6739d23fb2dafcfabce1c8e1ad8bb6d4ebc3eebcac3cdda609713277c6ca6876&o=&hp=1",
+                "thumb2": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/611507687.jpg?k=6d100a4ed62fca429c3974c1c5df5957d4d4ddf1f6b538abeb551d167c7249c8&o=&hp=1",
+                "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/512112583.jpg?k=aec49c1595cea17c50c510ea98e5b97fdb1ba0c279071d850257923efade08ef&o=&hp=1",
+                "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/608403376.jpg?k=4ea1f9ef9a22620510ae57c714bd0a363aede9c832fca1504efc3884fe55fc68&o=&hp=1"
+            },
             "url": "properties/prop8.html",
             "added": {
                 "month": "August",
                 "day": 5,
                 "year": 2024
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/9b/0a/f2/9b0af209cbd8e1f140b4a7557250744a.jpg"
         },
         {
             "id": "prop9",
-            "type": "Commercial",
+            "type": "House",
+            "title": "Luxurious Coastal Home in Negombo",
             "bedrooms": 0,
             "price": 120000000,
             "tenure": "Freehold",
-            "description": "A prime commercial property in the heart of Galle Fort, a UNESCO World Heritage site. Ideal for boutique hotels, shops, or cafes, this historic building combines cultural charm with modern potential.",
+            "description": "Experience coastal elegance in this luxurious Negombo residence. Nestled near pristine beaches, this home boasts expansive living spaces, modern architecture, and premium finishes. Featuring large bedrooms, a private swimming pool, and lush landscaped gardens, this property offers a perfect blend of tranquility and sophistication. Enjoy serene ocean breezes and the vibrant culture of Negombo, all from the comfort of your dream home.",
             "location": {
                 "address": "Church Street",
                 "city": "Galle Fort",
                 "postcode": "80000"
+            }, 
+            "picture":{
+                "main": "https://www.homelandsskyline.lk/uploads/1704872934817-image_12_villa_for_sale.webp",
+                "thumb1": "https://www.homelandsskyline.lk/uploads/1704872678809-image_04_villa_for_sale.webp",
+                "thumb2": "https://www.homelandsskyline.lk/uploads/1704872712356-image_05_villa_for_sale_in_kahathuduwa.webp",
+                "thumb3": "https://www.homelandsskyline.lk/uploads/1704872741334-image_06_villa_for_sale_in_piliyandala.webp",
+                "thumb4": "https://www.homelandsskyline.lk/uploads/1704872772365-image_07_villa_for_sale_in_colombo.webp"
             },
-            "picture": "https://cdn.pixabay.com/photo/2020/06/02/16/54/galle-5251322_960_720.jpg",
             "url": "properties/prop9.html",
             "added": {
                 "month": "July",
                 "day": 18,
                 "year": 2024
-            }
+            },
+            "floorplan": "https://i.pinimg.com/736x/df/f6/07/dff6079cb510e95fb9a610bb2be346ab.jpg"
         },
         {
             "id": "prop10",
-            "type": "Apartment",
+            "type": "Flat",
+            "title": "City Apartment with Panoramic Views",
             "bedrooms": 3,
             "price": 20000000,
             "tenure": "Leasehold",
-            "description": "Modern city apartment located in the heart of Colombo. This stylish property offers panoramic city views, contemporary interiors, and easy access to business districts and recreational facilities.",
+            "description": "Experience coastal elegance in this luxurious Negombo residence. Nestled near pristine beaches, this home boasts expansive living spaces, modern architecture, and premium finishes. Featuring large bedrooms, a private swimming pool, and lush landscaped gardens, this property offers a perfect blend of tranquility and sophistication. Enjoy serene ocean breezes and the vibrant culture of Negombo, all from the comfort of your dream home.",
             "location": {
                 "address": "Colombo 03",
                 "city": "Colombo",
                 "postcode": "00300"
+            }, 
+            "picture":{
+                "main": "https://www.homelandsskyline.lk/uploads/1714991671173-waterdale_skyline_apartment_for_sale_in_colombo%20(7).jpg",
+                "thumb1": "https://www.homelandsskyline.lk/uploads/1714991642512-waterdale_skyline_apartment_for_sale_in_colombo%20(6).jpg",
+                "thumb2": "https://www.homelandsskyline.lk/uploads/1714991517773-waterdale_skyline_apartment_for_sale_in_colombo%20(2).jpg",
+                "thumb3": "https://www.homelandsskyline.lk/uploads/1714991541937-waterdale_skyline_apartment_for_sale_in_colombo%20(1).jpg",
+                "thumb4": "https://www.homelandsskyline.lk/uploads/1714991758031-waterdale_skyline_apartment_for_sale_in_colombo%20(14).jpg"
             },
-            "picture": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/295462423.jpg?k=abc123xyz456&o=&hp=1",
             "url": "properties/prop5.html",
             "added": {
                 "month": "December",
                 "day": 28,
                 "year": 2024
-            }
+            },
+            "floorplan": "https://www.homelandsskyline.lk/uploads/1714992777025-1.png"
         }
         
 ]}

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const PropertyCard = ({ property }) => {
-  const { id, type, bedrooms, price, tenure, description, location, picture, url, added } = property;
+  const { id, type, title, bedrooms, price, tenure, description, location, picture, url, added } = property;
 
   const [isWished, setIsWished] = useState(() => {
     const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
@@ -24,12 +24,13 @@ const PropertyCard = ({ property }) => {
 
   return (
     <div className="card">
-      <img src={picture} style={{height:'250px', objectFit:'cover'}} className="card-img-top" alt={type} />
+      <img src={picture.main} style={{height:'250px', objectFit:'cover'}} className="card-img-top" alt={type} />
       <div className="card-body">
         
-        <h5 className="card-title">{type} - LKR {price.toLocaleString()}</h5>
-        <h6 className="card-subtitle mb-2 text-muted"><i className="bi bi-geo-alt-fill"></i> {location.city}</h6>
+        <h5 className="card-title">{title}</h5>
+        <h6 className="card-subtitle mb-2 text-muted"><i className="bi bi-house-fill"></i> {type} - LKR {price.toLocaleString()}</h6>
         <p className="card-text">
+          <strong><i className='bi bi-geo-alt-fill'></i> {location.city} {location.postcode}</strong> <br />
           <strong><i className='bx bxs-bed'></i> Bedrooms:</strong> {bedrooms} <br />
           <strong><i className="bi bi-key-fill"></i> Tenure:</strong> {tenure} <br />
           {description.substring(0, 100)}...

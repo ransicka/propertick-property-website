@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import Rentals from './pages/Rentals'
 import Sales from './pages/Sales'
 import ContactUs from './pages/ContactUs'
-import PropertyDetails from './components/PropertyDetails'
+import PropertyDetails from './pages/PropertyDetails'
 import WishlistSidebar from './components/WishlistSidebar'
 
 const App = () => {
