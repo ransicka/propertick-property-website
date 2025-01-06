@@ -15,7 +15,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg sticky-top bg-white">
             <div className="container-fluid">
                 {/* Home button and logo */}
-                <Link className="navbar-brand text-success" to="/">Propertick <img src="../assets/AdobeStock_581716218.png" width="24px" height="24px" /></Link>
+                <Link className="navbar-brand text-success" to="/">Propertick <img src="./AdobeStock_581716218.png" width="24px" height="24px" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
