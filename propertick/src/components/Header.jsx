@@ -11,9 +11,11 @@ const Header = () => {
 
     return (
         <>
+        {/* Bootstrap navbar is used for responsiveness */}
         <nav className="navbar navbar-expand-lg sticky-top bg-white">
             <div className="container-fluid">
-                <Link className="navbar-brand text-success" to="/">Propertick <img src="./AdobeStock_581716218.png" width="24px" height="24px" /></Link>
+                {/* Home button and logo */}
+                <Link className="navbar-brand text-success" to="/">Propertick <img src="../assets/AdobeStock_581716218.png" width="24px" height="24px" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -28,7 +30,7 @@ const Header = () => {
                     </ul>
                     <button 
                     className="btn btn-primary"
-                    onClick={toggleSidebar}
+                    onClick={toggleSidebar}    //Toggles the wishlist
                     style={{marginLeft: 'auto'}}
                     >
                         Wishlist
@@ -37,7 +39,8 @@ const Header = () => {
                 </div>
             </div>
         </nav>
-        <WishlistSidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+        {/* Using wishlist as a component */}
+        <WishlistSidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />    
         </>
     );
 };

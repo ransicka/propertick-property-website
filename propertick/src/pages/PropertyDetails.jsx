@@ -7,7 +7,6 @@ const PropertyDetails = () => {
   const { id } = useParams();
   const [properties, setProperties] = useState([]);
   const [property, setProperty] = useState(null);
-  const [isWished, setIsWished] = useState(false);
 
   useEffect(() => {
     import("../../public/properties.json")
@@ -25,20 +24,6 @@ const PropertyDetails = () => {
 
   const { type, title, bedrooms, price, tenure, description, location, picture, added, floorplan } = property;
 
-  const toggleWishlist = () => {
-    const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
-    if (isWished) {
-      // Remove from wishlist
-      const updatedWishlist = wishlist.filter(item => item !== property.id);
-      localStorage.setItem('wishlist', JSON.stringify(updatedWishlist));
-      setIsWished(false);
-    } else {
-      // Add to wishlist
-      wishlist.push(property.id);
-      localStorage.setItem('wishlist', JSON.stringify(wishlist));
-      setIsWished(true);
-    }
-  };
 
   return (
     <div className="container mt-4">
@@ -101,21 +86,18 @@ const PropertyDetails = () => {
 
       <br />
 
-      
+      <h4 className="card-subtitle mb-2">
+          <i className="bi bi-house-fill"></i> {type} - LKR {price.toLocaleString()}
+      </h4>
       <h4><i className='bi bi-geo-alt-fill'></i> {location.address}, {location.city}</h4>
       <p>
         <strong><i className='bx bxs-bed'></i> Bedrooms:</strong> {bedrooms} <br />
         <strong><i className="bi bi-key-fill"></i> Tenure:</strong> {tenure} <br />
         <small className="text-muted">Added on {added.day} {added.month}, {added.year}</small>
       </p>
-      <button 
-        className={`btn ${isWished ? 'btn-danger' : 'btn-secondary'} mt-2`} 
-        onClick={toggleWishlist}
-      >
-        <i className={`bi ${isWished ? 'bi-heart-fill' : 'bi-heart'}`}></i> Add to Wishlist
-      </button>
-      <br></br>
-      <br></br>
+      
+      <br />
+      {/* React tab components for more details, floor plan, and Google map */}
       <Tabs>
         <TabList>
           <Tab>More Details</Tab>

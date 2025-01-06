@@ -2,6 +2,8 @@
 body {
     font-family: 'Manrope', sans-serif, Arial;
 }
+
+/* Carousel indicator styling in product details page */
 .carousel-indicators img{
     width: 70px;
     display: block;
@@ -21,10 +23,13 @@ body {
 }
 
 .card-body {
-    flex-grow: 1; /* Ensures the body grows to fill available space */
+    flex-grow: 1; /* Ensures the body fills space */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Keeps content aligned */
 }
+
+
+
   
   

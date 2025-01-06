@@ -2,7 +2,7 @@
 
 const Carousel = () => {
     return (
-        <div className="container nnnnnnn">
+        <div className="container">
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -32,6 +32,7 @@ const Carousel = () => {
                     <img src="../images/AdobeStock_455072172.jpeg" className="d-block w-100" style={{height:'400px', objectFit:'cover'}} alt="..." />
                 </div>
             </div>
+            {/* Slider buttons */}
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>

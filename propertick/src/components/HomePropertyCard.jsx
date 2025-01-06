@@ -2,9 +2,10 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const HomePropertyCard = ({ property }) => {
-  const { id, type, title, bedrooms, price, tenure, description, location, picture, url, added } = property;
+// A card component used to feature in Home page
 
+const HomePropertyCard = ({ property }) => {
+  const { id, type, title, price, location, picture, added } = property;
 
   return (
     <div className="card">
@@ -18,7 +19,7 @@ const HomePropertyCard = ({ property }) => {
         </p>
         
         <div className="d-flex align-items-center gap-2">
-          <Link to={`/properties/${id}`} className="btn btn-primary mt-2 col-12" target="_blank">
+          <Link to={`/properties/${id}`} className="btn btn-outline-success mt-2 col-12" target="_blank">
             View Details
           </Link>
         </div>

@@ -1,25 +1,3 @@
-// import Header from '../components/Header';
-// import Carousel from '../components/Carousel';
-// import SearchForm from '../components/SearchForm';  
-// import PropertyList from '../components/PropertyList';
-// import propertiesData from '../../public/properties.json';
-// import Footer from '../components/Footer';
-
-
-// const Home = () => {
-//     return (
-//         <div>
-//             <Carousel />
-            
-
-
-//         </div>
-//     )
-// }
-
-// export default Home;
-
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel';
@@ -27,12 +5,8 @@ import HomePropertyCard from '../components/HomePropertyCard';
 import propertiesData from '../../public/properties.json';
 
 const Home = () => {
-  // Use the first 3 properties from the JSON file
-//   const featuredProperties = propertiesData.slice(0, 3);
     const featuredProperties = propertiesData.properties.slice(0, 3);
     
-    
-
 return (
     <div>
         {/* Carousel */}
@@ -54,7 +28,7 @@ return (
 
         
 
-      
+      {/* Show some featured properties, in this case the first 3 of the list */}
         <div className="container mt-5">
             <h3 className="mb-4">Featured Properties</h3>
             <div className="row">
@@ -65,7 +39,7 @@ return (
                 ))}
             </div>
             <div className="container mt-5 text-center">
-                <Link to="/properties" className="btn btn-primary">View More Properties</Link>
+                <Link to="/properties" className="btn btn-outline-success">View More Properties</Link>
             </div>
             <br />
             <br />
