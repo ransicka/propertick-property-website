@@ -130,11 +130,9 @@ const PropertyDetails = () => {
 
         <TabPanel>
           <h2>Floor Plan</h2>
-          <img
-            src={floorplan}
-            alt="Floor Plan"
-            style={{ width: "100%", objectFit: "cover" }}
-          />
+          <img src={floorplan} alt="Floor Plan" style={{ width: "50%", objectFit: "cover" }}/>
+          <br />
+          <br />
         </TabPanel>
 
         <TabPanel>

@@ -20,13 +20,10 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav justify-content-center w-100 mb-2 mb-lg-0 gap-5">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Sales">Sales</Link>
+                            <Link className="nav-link" to="/properties">Properties</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Rentals">Rentals</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/Contact-us">Contact Us</Link>
+                            <Link className="nav-link" to="/contact-us">Contact Us</Link>
                         </li>   
                     </ul>
                     <button 

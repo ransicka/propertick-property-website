@@ -20,11 +20,11 @@
                 "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/451955425.jpg?k=0b188e4393d98304d394fe16275d298c62414d7e782603164f18964a12ad8c58&o=&hp=1",
                 "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/474497430.jpg?k=445431d10319d54bd5722d327d7ac5a2fca32d7372cec74707e594f986e3b145&o=&hp=1"
             },
-            "url":"properties/prop1.html",
+            "url":"https://maps.app.goo.gl/v9kTtTAz3AYDfCr37",
             "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
+                "month":"January",
+                "day":2,
+                "year":2025
             },
             "floorplan": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sample_Floorplan.jpg"
         },
@@ -48,11 +48,11 @@
                 "thumb3": "https://www.homelandsskyline.lk/uploads/1709199322949-Canterbury_Lexus_Golf_Apartments%20(12).jpg",
                 "thumb4": "https://www.homelandsskyline.lk/uploads/1709199341692-Canterbury_Lexus_Golf_Apartments%20(14).jpg"
             },
-			"url":"properties/prop2.html",
+			"url":"https://maps.app.goo.gl/fe9mEUM7AXBbJwPu7",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month":"January",
+                "day":1,
+                "year":2025
             },
             "floorplan": "https://i.pinimg.com/736x/26/96/45/269645e71fc69295cb74fab7b8ffcc41.jpg"
         },
@@ -76,7 +76,7 @@
                 "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/326126750.jpg?k=7ef22dc0b44162538a533067150097d5855732272cc61c9447442bb884b1ffe1&o=&hp=1",
                 "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/326126822.jpg?k=679ce65fa6a9696058261e37d82c8edfb5db002dff69a669ca4cd148a7ffb09c&o=&hp=1"
             },
-            "url":"properties/prop3.html",
+            "url":"https://maps.app.goo.gl/6Web3nRdqnoxwPGB9",
             "added": {
                 "month":"July",
                 "day":1,
@@ -104,7 +104,7 @@
                 "thumb3": "https://www.ceylonproperty.lk/imagesPosts/19601733723578pp76ZVVz2djq0HD.jpeg",
                 "thumb4": "https://www.ceylonproperty.lk/imagesPosts/19601733723582jaBKTu8M1cNUQws.jpeg"
             },
-			"url":"properties/prop4.html",
+			"url":"https://maps.app.goo.gl/Y6JNZTTDhmthkzFU9",
             "added": {
                 "month":"December",
                 "day":27,
@@ -132,7 +132,7 @@
                 "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/610963814.jpg?k=3c75b3b7c5c3a8a2b57e1a6660328ff1b4f5d2229d07e58342746508919848d5&o=&hp=1",
                 "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/426745069.jpg?k=beee2a88dea86b443682b862bc541cafef658163c33f1824284eec8f37cf2542&o=&hp=1"
             },
-            "url": "properties/prop5.html",
+            "url": "https://maps.app.goo.gl/svqfn7wbeZeWMa3y5",
             "added": {
                 "month": "November",
                 "day": 20,
@@ -160,7 +160,7 @@
                 "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/182092878.jpg?k=e24f06afadaf24c0a8f65702b0f972808c4433ee7662e17bcc9f07ec42968fa3&o=&hp=1",
                 "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181831926.jpg?k=c0322ef5e8843f7b8bb7484a8c5b6c1385b10b4e59cf9b5e236f8c842baa5f03&o=&hp=1"
             },
-            "url": "properties/prop6.html",
+            "url": "https://maps.app.goo.gl/n8oderbYpxrCUs696",
             "added": {
                 "month": "October",
                 "day": 15,
@@ -188,7 +188,7 @@
                 "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/102195594.jpg?k=dfd8165c4ed9c5850aa0fb15ac689bd448dcc6b09656151192a3b15ee02d31ae&o=&hp=1",
                 "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/141183762.jpg?k=2cdef3946422dcb219d5e2e9e6f2eb082a000a3731beb4e9b928e5f94ff4a371&o=&hp=1"
             },
-            "url": "properties/prop7.html",
+            "url": "https://maps.app.goo.gl/se5yqFfG4M6747RC7",
             "added": {
                 "month": "September",
                 "day": 10,
@@ -198,16 +198,16 @@
         },
         {
             "id": "prop8",
-            "type": "Villa",
-            "title": "Beachfront Villa",
+            "type": "House",
+            "title": "2 Storey House in Baddegama Galle",
             "bedrooms": 6,
             "price": 60000000,
             "tenure": "Freehold",
-            "description": "Located on the golden beaches of Bentota, this luxurious beachfront villa offers the perfect escape. With spacious rooms, an infinity pool, and direct beach access, this property is an ideal investment or holiday home.",
+            "description": "Discover comfort and charm in this two-story house located in the serene town of Baddegama, Galle. This well-designed home offers spacious living areas, multiple bedrooms, and a modern kitchen, perfect for families. Surrounded by lush greenery, it provides a peaceful retreat while being conveniently close to local amenities and the southern expressway.",
             "location": {
-                "address": "Bentota Beach",
-                "city": "Bentota",
-                "postcode": "80500"
+                "address": "727, Galle-Baddegama Road, Baddegama",
+                "city": "Galle",
+                "postcode": "80200"
             },
             "picture":{
                 "main": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/608403357.jpg?k=3735abeba696721f4c3a2f463e3a22d864e3cce34ca029fac3fee6d1386451d8&o=&hp=1",
@@ -216,7 +216,7 @@
                 "thumb3": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/512112583.jpg?k=aec49c1595cea17c50c510ea98e5b97fdb1ba0c279071d850257923efade08ef&o=&hp=1",
                 "thumb4": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/608403376.jpg?k=4ea1f9ef9a22620510ae57c714bd0a363aede9c832fca1504efc3884fe55fc68&o=&hp=1"
             },
-            "url": "properties/prop8.html",
+            "url": "https://maps.app.goo.gl/4eDyGxxavESLFJqdA",
             "added": {
                 "month": "August",
                 "day": 5,
@@ -244,7 +244,7 @@
                 "thumb3": "https://www.homelandsskyline.lk/uploads/1704872741334-image_06_villa_for_sale_in_piliyandala.webp",
                 "thumb4": "https://www.homelandsskyline.lk/uploads/1704872772365-image_07_villa_for_sale_in_colombo.webp"
             },
-            "url": "properties/prop9.html",
+            "url": "https://maps.app.goo.gl/3y1uKCFiT4tzMsEa9",
             "added": {
                 "month": "July",
                 "day": 18,
@@ -272,7 +272,7 @@
                 "thumb3": "https://www.homelandsskyline.lk/uploads/1714991541937-waterdale_skyline_apartment_for_sale_in_colombo%20(1).jpg",
                 "thumb4": "https://www.homelandsskyline.lk/uploads/1714991758031-waterdale_skyline_apartment_for_sale_in_colombo%20(14).jpg"
             },
-            "url": "properties/prop5.html",
+            "url": "https://maps.app.goo.gl/6anAvwgu3Fi7UTjb7",
             "added": {
                 "month": "December",
                 "day": 28,
